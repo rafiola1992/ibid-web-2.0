@@ -1,0 +1,609 @@
+id: KqDqRiLCwU-t9NmToCN-XQ
+projectId: 9BNRUp8wekKI6fKJrZzWDQ
+projectName: IBID WEB 2.0
+created: 2021-11-15T10:20:21.5710692Z
+protocol: 1
+tests:
+- id: lZWEKoCwP0CaD6YbxhrUxg
+  name: MIDTRANS
+  description: MIDTRANS
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-06-25T14:45:38.0000000
+  modificationDate: 2021-06-25T14:54:39.0000000
+  settings:
+    automationAssistant: true
+    appId: 0Yc5YotSaUyPdT4mPG5o0w
+    stepSleepTime: 1000
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: 0Yc5YotSaUyPdT4mPG5o0w
+    name: midtrans
+    url: https://demo.midtrans.com
+    platform: Web
+  steps:
+  - id: iWMAIs4kk0adXXfXdv2NkQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fDLliJ_T3kGy1RmXEyVkXQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: aPf2sFGKtkKgdII8bbFa-A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ty8CjuquPUaJ_mLuJwdX5w
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: g2WIgnmOsE6pf2g8TPTp2g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NdWULxEgXEa9L-nEph9vAg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: Uwcy7an3vEersqA7akrDlA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'snap-midtrans']|//*[@name = 'popup_1624632374599']|/html/body/iframe
+  - id: 83NqdGtHg0umjsvsFkK1VA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: B446CWgU0Eiyvop1sXfKaA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'snap-midtrans']|//*[@name = 'popup_1624632374599']|/html/body/iframe
+  - id: SYHK_-PYgUmcHrB0qEYI5A
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: 2duSf8Y500SeMZ3u2n8dFw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'snap-midtrans']|//*[@name = 'popup_1624632374599']|/html/body/iframe
+  - id: Iel2HyV4Y0CMgO4EGt7h6A
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 2duSf8Y500SeMZ3u2n8dFw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 4811 1111 1111 1114
+      direction: Input
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'snap-midtrans']|//*[@name = 'popup_1624632374599']|/html/body/iframe
+  - id: vKYSRd-UNU-OdP1mAYeV0A
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: Sht3UfrxwUCQD8g4P7aA9w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'snap-midtrans']|//*[@name = 'popup_1624632374599']|/html/body/iframe
+  - id: ezdbLWYXYkKAt9zY6hmzDA
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: Sht3UfrxwUCQD8g4P7aA9w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 12 / 24
+      direction: Input
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'snap-midtrans']|//*[@name = 'popup_1624632374599']|/html/body/iframe
+  - id: TerX37F1fUGbm6RcAovoNQ
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: lUVOkIJ30UajhdVWaCz8jA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'snap-midtrans']|//*[@name = 'popup_1624632374599']|/html/body/iframe
+  - id: Fy-6mkvtfEK0b-19oAFWDw
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: lUVOkIJ30UajhdVWaCz8jA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 123
+      direction: Input
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'snap-midtrans']|//*[@name = 'popup_1624632374599']|/html/body/iframe
+  - id: eysFj_HVgEG7kVPgP3nLjw
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: cPXtB3U040ejwc0kwtanlA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'snap-midtrans']|//*[@name = 'popup_1624632374599']|/html/body/iframe
+  - id: Zcpq2MxR4UOp5j9Be_xCJw
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: xn-yW5MW_EyeIl-89v7gWA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'snap-midtrans']|//*[@name = 'popup_1624632374599']|/html/body/iframe
+    - order: 1
+      locatorType: XPATH
+      locatorValue: /html/body/div[3]/div/div[3]/div/div/div/iframe
+  - id: X7ymz-if0E6aKDckdmJ2Bw
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: xn-yW5MW_EyeIl-89v7gWA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 112233
+      direction: Input
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'snap-midtrans']|//*[@name = 'popup_1624632374599']|/html/body/iframe
+    - order: 1
+      locatorType: XPATH
+      locatorValue: /html/body/div[3]/div/div[3]/div/div/div/iframe
+  - id: 4hOoT9NmtU-xr2UUVf9Dhg
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: xdTRFU0DEkq1VPsgC8Bllw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'snap-midtrans']|//*[@name = 'popup_1624632374599']|/html/body/iframe
+    - order: 1
+      locatorType: XPATH
+      locatorValue: /html/body/div[3]/div/div[3]/div/div/div/iframe
+  - id: Wt5LMBxBU0qKfm_DRZQ8pw
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: cA6ox9JkZEe9jZIRuDxitw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'snap-midtrans']|//*[@name = 'popup_1624632374599']|/html/body/iframe
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://demo.midtrans.com
+    type: Input
+auxTests: []
+elements:
+- id: aPf2sFGKtkKgdII8bbFa-A
+  name: BUY NOW
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'BUY NOW']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div[1]/div[2]/div/div/a
+    priority: 2
+- id: g2WIgnmOsE6pf2g8TPTp2g
+  name: CHECKOUT
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'CHECKOUT']
+    priority: 0
+  - name: XPATH
+    value: //body/div/div/div/div[2]/div[2]/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div/div[2]/div[2]/div[1]
+    priority: 2
+- id: Uwcy7an3vEersqA7akrDlA
+  name: Continue
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Continue']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div[1]/a
+    priority: 2
+- id: B446CWgU0Eiyvop1sXfKaA
+  name: Credit/Debit Card
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'Credit/Debit Card']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/a/div[2]/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div[3]/div/div/div/div/div/div[1]/a/div[2]/div[1]
+    priority: 2
+- id: 2duSf8Y500SeMZ3u2n8dFw
+  name: cardnumber
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='cardnumber']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = '4811 1111 1111 1114']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div[1]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[3]/div/div[3]/div/div/div/form/div[2]/div[1]/input
+    priority: 3
+- id: Sht3UfrxwUCQD8g4P7aA9w
+  name: MM / YY
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@placeholder = 'MM / YY']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[2]/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div[3]/div/div/div/form/div[2]/div[2]/input
+    priority: 2
+- id: lUVOkIJ30UajhdVWaCz8jA
+  name: 123
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@placeholder = '123']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div[3]/div/div/div/form/div[2]/div[3]/input
+    priority: 2
+- id: cPXtB3U040ejwc0kwtanlA
+  name: Pay Now
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Pay Now']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div[1]/a
+    priority: 2
+- id: xn-yW5MW_EyeIl-89v7gWA
+  name: PaRes
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#PaRes'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='PaRes']"
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = '112233']
+    priority: 2
+  - name: XPATH
+    value: //div/input
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/form/div[5]/div/input
+    priority: 4
+- id: xdTRFU0DEkq1VPsgC8Bllw
+  name: ok
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='ok']"
+    priority: 0
+  - name: XPATH
+    value: //button[. = 'OK']
+    priority: 1
+  - name: XPATH
+    value: //button[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/form/div[6]/div/button[1]
+    priority: 3
+- id: cA6ox9JkZEe9jZIRuDxitw
+  name: Done
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Done']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div[1]/a
+    priority: 2
+projectParameters: []
+addons: []
