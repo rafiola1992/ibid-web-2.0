@@ -1,18 +1,18 @@
-id: EigL4O2CFkWwS8HFYsWDlw
+id: 6q02B9F-30-pHPPkue8xTw
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2021-11-15T12:41:33.7875741Z
+created: 2021-11-17T06:30:38.9024253Z
 protocol: 1
 tests:
 - id: VixEpJfWB0iWp3M_jSau_g
-  name: TC-LoginManual
+  name: TC-LoginManualNEW
   description: test
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2021-08-20T02:54:30.0000000
-  modificationDate: 2021-11-15T12:41:34.0000000
+  modificationDate: 2021-11-17T06:30:39.0000000
   settings:
     automationAssistant: true
     appId: nySB3blUd0uLTl9odEXGZQ
