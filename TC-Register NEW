@@ -1,18 +1,18 @@
-id: wOLlQOh2nUaeybUXJXMOQQ
+id: -r_oiokif02-UDohGuWJMw
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2021-11-15T12:46:56.8483665Z
+created: 2021-11-22T08:14:15.4185161Z
 protocol: 1
 tests:
 - id: SZXA7PqVVUGSyMB2xnQe_Q
-  name: TC-Register
+  name: TC-Register NEW
   description: test case register
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2020-09-23T02:31:04.0000000
-  modificationDate: 2021-11-15T12:46:57.0000000
+  modificationDate: 2021-11-22T08:14:05.0000000
   settings:
     automationAssistant: false
     appId: nySB3blUd0uLTl9odEXGZQ
