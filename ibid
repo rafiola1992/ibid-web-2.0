@@ -1,0 +1,206 @@
+id: L4rwfRCvLEKLtYDx80z1zA
+projectId: 9BNRUp8wekKI6fKJrZzWDQ
+projectName: IBID WEB 2.0
+created: 2021-12-18T04:34:05.4236512Z
+protocol: 1
+tests:
+- id: LPxiFQIqZ0WsIpltrVeQAA
+  name: ibid
+  description: ibid
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-12-18T01:02:15.0000000
+  modificationDate: 2021-12-18T01:19:19.0000000
+  settings:
+    automationAssistant: true
+    appId: pHioc0uxt0GnzfQ7JdmpKw
+    stepSleepTime: 2000
+    stepTimeout: 35000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: pHioc0uxt0GnzfQ7JdmpKw
+    name: web ibid
+    url: https://ibid.astra.co.id
+    platform: Web
+  steps:
+  - id: 2f6vTN3QhEimqy1P1htKAQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KcJpfvzoSE6lvnOW07u05g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: RTW9dufGWU6uL4AKglJ6GQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VxFb5jzhq0qYFB7sqTYfaw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: m3hmPFqNwE2NwH5Atmqm9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -cz6GGsbh0-GoywYzW0ywQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: eDNs3WJgm0KOrLmfqUHyBA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: j8xrBWEuEUO8x_ZqzwnmeA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: e8GrU5TNcUi-Sxbs9oolDA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: DAIHATSU AYLA 1.0 D
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://ibid.astra.co.id
+    type: Input
+auxTests: []
+elements:
+- id: RTW9dufGWU6uL4AKglJ6GQ
+  name: Objek lelang
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Objek lelang']
+    priority: 0
+  - name: XPATH
+    value: //nav/div/div/ul/li[1]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/header/nav[2]/div/div/ul/li[1]/a
+    priority: 2
+- id: m3hmPFqNwE2NwH5Atmqm9A
+  name: kxb4akl7
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDk
+    name: Checkbox
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[1]/main/div[1]/section/div/div/aside/div[2]/ul/li[1]/div[2]/div/input
+    priority: 0
+  - name: XPATH
+    value: //li/div[2]/div/input
+    priority: 1
+- id: eDNs3WJgm0KOrLmfqUHyBA
+  name: IMG
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/a/div/div/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/main/div[1]/section/div/div/div/div[4]/div[1]/a/div/div[1]/img
+    priority: 1
+- id: e8GrU5TNcUi-Sxbs9oolDA
+  name: DAIHATSU AYLA 1.0 D
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h1[. = 'DAIHATSU AYLA 1.0 D']
+    priority: 0
+  - name: XPATH
+    value: //h1
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/main/div[1]/section[1]/div/div/div[2]/div[1]/div[1]/h1
+    priority: 2
+projectParameters: []
+addons: []
