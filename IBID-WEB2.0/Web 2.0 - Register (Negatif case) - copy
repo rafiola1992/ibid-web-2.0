@@ -1,24 +1,24 @@
-id: _g_GNKWUJkyU346C1d9r4g
+id: bQA6YGS2L0e832kYBOolrA
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2022-01-21T04:56:07.5659032Z
+created: 2022-01-21T05:02:11.0132174Z
 protocol: 1
 tests:
-- id: -bIb0X_TVEWIIfYuPPalmg
-  name: TC-Profile
-  description: ''
+- id: 2vmsGFdqZUuLKyaSBtC9xA
+  name: Web 2.0 - Register (Negatif case) - copy
+  description: test case register
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
-  creationDate: 2022-01-18T06:40:17.0000000
-  modificationDate: 2022-01-18T09:25:37.0000000
+  creationDate: 2021-01-08T05:25:41.0000000
+  modificationDate: 2022-01-21T04:58:56.0000000
   settings:
-    automationAssistant: true
+    automationAssistant: false
     appId: nySB3blUd0uLTl9odEXGZQ
-    stepSleepTime: 500
+    stepSleepTime: 0
     stepTimeout: 15000
-    stepSleepTiming: Before
+    stepSleepTiming: None
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
   application:
@@ -27,8 +27,7 @@ tests:
     url: https://ibid-frontend-staging.ibid.astra.co.id/
     platform: Web
   steps:
-  - id: Si65W1rwmkagnQcmfT9PNQ
-    comments: Navigates the specified URL (Auto-generated)
+  - id: -0IzG0r2Ok-uD1DTuurVgQ
     enabled: true
     invertResult: false
     order: 1
@@ -45,18 +44,18 @@ tests:
       source: System
     parameterMaps:
     - name: url
-      value: '{{ApplicationURL}}'
+      value: https://ibid-frontend-charlie.ibid.astra.co.id/
       direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: -mEiEhGgf0qE91UxgA2qRw
-    comments: ''
+  - id: -uj-671ib0mOCU2qX9mXMA
     enabled: true
     invertResult: false
     order: 2
     repeat: 1
-    type: Addon
+    type: Action
+    elementId: 5xHgc3yP70y4JP1vzLBM9Q
     settings:
       sleepTime: -1
       timeout: -1
@@ -64,21 +63,19 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: oss77pMS7U-Bt7cdueaJUw
-      source: Store
-      addonId: Xey4bVsJQEODIUN7ssaJMg
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
     parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: qqa84W0pIE6G3SGXkmd9zA
-    comments: ''
+  - id: IaKxZtANEEmubmneY3Y48Q
     enabled: true
     invertResult: false
     order: 3
     repeat: 1
     type: Action
-    elementId: wbc7H3QkMU2-HdTPGqMYnQ
+    elementId: E3LjDR5ovk25kZwo0VpIpw
     settings:
       sleepTime: -1
       timeout: -1
@@ -92,13 +89,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: GMJXMqQlVUm_CnDSaSzNOQ
+  - id: NIQMg2ZFlU2w4tAWwW70rg
     enabled: true
     invertResult: false
     order: 4
     repeat: 1
     type: Action
-    elementId: ou5pPDRfp0qZswHofMKbkw
+    elementId: E3LjDR5ovk25kZwo0VpIpw
     settings:
       sleepTime: -1
       timeout: -1
@@ -106,19 +103,22 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
       source: System
-    parameterMaps: []
+    parameterMaps:
+    - name: keys
+      value: rafiola test
+      direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: kAu4e8UoH06mJyYW8EOtqg
+  - id: fw8QBscbP0WzD-w8j0Vvvw
     enabled: true
     invertResult: false
     order: 5
     repeat: 1
     type: Action
-    elementId: ou5pPDRfp0qZswHofMKbkw
+    elementId: P8MJnOrCxEWVvEaMvxrC-Q
     settings:
       sleepTime: -1
       timeout: -1
@@ -130,18 +130,18 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: rafiolasaputra02@gmail.com
+      value: rafiolatest@gmail.com
       direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: Tt59Ul62gkmCoZLlgQ4oXQ
+  - id: IQkyNxCggEGPiE95T9SdRg
     enabled: true
     invertResult: false
     order: 6
     repeat: 1
     type: Action
-    elementId: 6FYVR8vRU068_7x-3DI4rQ
+    elementId: F57_CZtij0S--PadR24f9g
     settings:
       sleepTime: -1
       timeout: -1
@@ -155,33 +155,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: RBLnBUOnRUybSjsjeGbn2w
+  - id: XH6C7ZyjzUe2geUm8pwqxg
     enabled: true
     invertResult: false
     order: 7
     repeat: 1
     type: Action
-    elementId: jBnHsZt89UO745nU2F94DQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 0fUa9L0YeU20RnuON37e8Q
-    enabled: true
-    invertResult: false
-    order: 8
-    repeat: 1
-    type: Action
-    elementId: jBnHsZt89UO745nU2F94DQ
+    elementId: F57_CZtij0S--PadR24f9g
     settings:
       sleepTime: -1
       timeout: -1
@@ -193,18 +173,41 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: Rafiola02
+      value: rafiola01
       direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: gJouBFJKxUuGWvLUcFzsfQ
+  - id: DpWsk7AumkiA6qvzAPzbfQ
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: rCofbGGOg0u0ey42Om2zMQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: rafiola01
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tJUoy-uy5EieOPkCSCfLOA
     enabled: true
     invertResult: false
     order: 9
     repeat: 1
     type: Action
-    elementId: 6FYVR8vRU068_7x-3DI4rQ
+    elementId: AfaNlA0FFkqQlxjn6SuZzQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -218,13 +221,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: -E3KhxaFHkyPy3vRZJouQg
+  - id: usSlZFYjeUuh9Ok_WmD7hw
+    comments: ''
     enabled: true
     invertResult: false
     order: 10
     repeat: 1
     type: Action
-    elementId: YqpTvykF6E-CpuiSnLXNxQ
+    elementId: _7ipn_Ugb0yX3MoliXgHkw
     settings:
       sleepTime: -1
       timeout: -1
@@ -232,75 +236,12 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
       source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: RX3ffAye70KGHiOvlGr4Uw
-    enabled: true
-    invertResult: false
-    order: 11
-    repeat: 1
-    type: Action
-    elementId: Oa7cmzSTmkiO5tP_VhXg1Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: q8gLpV_O70ymEEpPkb_f4g
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 12
-    repeat: 1
-    type: Addon
-    elementId: luS4N5C-Y0O8cReJDLK0dA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: vIixaIuPdESZy7F5a1d_Dg
-      source: Store
-      addonId: kdm6mjOcjEGSxdIP19l55g
     parameterMaps:
-    - name: PATH
-      value: C:\Users\USER\Documents\IBID 04okt2021\download\1b.jpg
+    - name: text
+      value: Verifikasi Akun
       direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: d-XS0GOMW0mvklYHY-GN0Q
-    comments: ''
-    enabled: false
-    invertResult: false
-    order: 13
-    repeat: 1
-    type: Action
-    elementId: 1IEexV3uEE2n32dVG7DKzw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
-      source: System
-    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -309,62 +250,58 @@ tests:
     description: Auto generated application URL parameter
     value: https://ibid-frontend-staging.ibid.astra.co.id/
     type: Input
-  - name: image
-    description: ''
-    value: C:\Users\USER\Documents\IBID 04okt2021\download\1.jpg
-    type: Input
 auxTests: []
 elements:
-- id: wbc7H3QkMU2-HdTPGqMYnQ
-  name: Masuk1
+- id: 5xHgc3yP70y4JP1vzLBM9Q
+  name: Daftar
   type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
     source: System
   locators:
   - name: XPATH
-    value: //button[. = 'Masuk']
+    value: //a[. = 'Daftar']
     priority: 0
   - name: XPATH
-    value: //nav/div/div//button
+    value: //nav/div/div/a[1]
     priority: 1
   - name: XPATH
-    value: /html/body/div[1]/div/header/nav[2]/div/div/div/button
+    value: /html/body/div[1]/div/div/nav[2]/div/div/a[1]
     priority: 2
-- id: ou5pPDRfp0qZswHofMKbkw
-  name: username
+- id: E3LjDR5ovk25kZwo0VpIpw
+  name: nama
   type:
     id: jUwODgyNjAyNzk2NTk1NDY
     name: Textbox
     source: System
   locators:
   - name: CSSSELECTOR
-    value: "[name='username']"
-    priority: 0
-  - name: XPATH
-    value: //input
+    value: "[name='nama']"
     priority: 1
   - name: XPATH
-    value: /html/body/div[1]/main/div[1]/main/div/div[2]/div[2]/div/div/form/div[1]/input
+    value: //div[1]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div/div/main/div/div[2]/div[2]/div/div/form/div[1]/input
     priority: 2
-- id: 6FYVR8vRU068_7x-3DI4rQ
-  name: Sign in1
+- id: P8MJnOrCxEWVvEaMvxrC-Q
+  name: email
   type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
     source: System
   locators:
-  - name: XPATH
-    value: //button[. = 'Sign in']
+  - name: CSSSELECTOR
+    value: "[name='email']"
     priority: 0
   - name: XPATH
-    value: //form/button
+    value: //div[2]/input
     priority: 1
   - name: XPATH
-    value: /html/body/div[1]/div/main/div/main/div/div[2]/div[2]/div/div/form/button
+    value: /html/body/div[1]/div/div/main/div/div[2]/div[2]/div/div/form/div[2]/input
     priority: 2
-- id: jBnHsZt89UO745nU2F94DQ
-  name: password1
+- id: F57_CZtij0S--PadR24f9g
+  name: password
   type:
     id: jUwODgyNjAyNzk2NTk1NDY
     name: Textbox
@@ -374,100 +311,58 @@ elements:
     value: "[name='password']"
     priority: 0
   - name: XPATH
-    value: //div[2]/input
+    value: //div[3]/input
     priority: 1
   - name: XPATH
-    value: /html/body/div[1]/div/div/main/div/div[2]/div[2]/div/div/form/div[2]/input
+    value: /html/body/div[1]/div/div/main/div/div[2]/div[2]/div/div/form/div[3]/input
     priority: 2
-- id: YqpTvykF6E-CpuiSnLXNxQ
-  name: userProfile
+- id: rCofbGGOg0u0ey42Om2zMQ
+  name: passwordconfirm
   type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
     source: System
   locators:
   - name: CSSSELECTOR
-    value: '#userProfile'
+    value: "[name='passwordconfirm']"
     priority: 0
   - name: XPATH
-    value: //ul[3]/li/span
+    value: //div[4]/input
     priority: 1
   - name: XPATH
-    value: /html/body/div[1]/header/nav[2]/div/div/ul[3]/li[2]/span
+    value: /html/body/div[1]/div/div/main/div/div[2]/div[2]/div/div/form/div[4]/input
     priority: 2
-- id: Oa7cmzSTmkiO5tP_VhXg1Q
-  name: Pengaturan Profil
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'Pengaturan Profil']
-    priority: 0
-  - name: XPATH
-    value: //ul[3]/li[2]//a[1]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/header/nav[2]/div/div/ul[3]/li[2]/div/a[1]
-    priority: 2
-- id: luS4N5C-Y0O8cReJDLK0dA
-  name: BUTTON
+- id: AfaNlA0FFkqQlxjn6SuZzQ
+  name: Register
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
-  - name: CSSSELECTOR
-    value: '#inputProfilePicture'
+  - name: XPATH
+    value: //button[. = 'Register']
     priority: 0
   - name: XPATH
-    value: //input[@type = ‘file’]
+    value: //button
     priority: 1
   - name: XPATH
-    value: /html/body/div[1]/main/div[1]/section/div/div/div/div/div/div/div[2]/div[1]/div[1]/div/button
+    value: /html/body/div[1]/div/div/main/div/div[2]/div[2]/div/div/form/button
     priority: 2
-  - name: XPATH
-    value: //div[1]/div/button
-    priority: 3
-- id: 1IEexV3uEE2n32dVG7DKzw
-  name: DIV2
+- id: _7ipn_Ugb0yX3MoliXgHkw
+  name: Verifikasi Akun
   type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
     source: System
   locators:
   - name: XPATH
-    value: //div[5]/div/div/div/div
+    value: //h1[. = 'Verifikasi Akun']
     priority: 0
   - name: XPATH
-    value: /html/body/div[5]/div/div/div[2]/div
+    value: //h1
     priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/main/div/div[2]/div[2]/div/div/h1
+    priority: 2
 projectParameters: []
-addons:
-- id: Xey4bVsJQEODIUN7ssaJMg
-  source: Store
-  version: 1.1.9
-  actions:
-  - id: oss77pMS7U-Bt7cdueaJUw
-    name: Maximize window
-    description: Maximize window
-    className: io.testproject.addons.web.window.MaximizeWindow
-  minSdkLevel: 2
-  minSdkVersion: 0.63.1
-  sdkGeneration: 1
-  language: Java
-  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
-- id: kdm6mjOcjEGSxdIP19l55g
-  source: Store
-  version: 0.2
-  actions:
-  - id: vIixaIuPdESZy7F5a1d_Dg
-    name: Upload file
-    description: Uploads a file to a given element with the 'file' type
-    className: UploadFileElementAction
-  minSdkLevel: 2
-  minSdkVersion: 0.65.0
-  sdkGeneration: 1
-  language: Java
-  hash: 60728201DEA798F81661DD2D23E27C23B8BF5BFD9D0AB5D0DEC48AB2B481AFB0
+addons: []
