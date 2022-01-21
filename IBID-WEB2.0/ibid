@@ -1,7 +1,7 @@
-id: L4rwfRCvLEKLtYDx80z1zA
+id: rk1TxgAzDUyEaIwYpfscTw
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2021-12-18T04:34:05.4236512Z
+created: 2022-01-21T05:02:11.0136224Z
 protocol: 1
 tests:
 - id: LPxiFQIqZ0WsIpltrVeQAA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-18T01:02:15.0000000
-  modificationDate: 2021-12-18T01:19:19.0000000
+  modificationDate: 2022-01-21T04:58:56.0000000
   settings:
     automationAssistant: true
     appId: pHioc0uxt0GnzfQ7JdmpKw
