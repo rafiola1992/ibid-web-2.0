@@ -1,7 +1,7 @@
-id: folSZM3iCk2TXwnMofexdg
+id: vM2RbdiAfUeOWrrFVUjyUg
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2021-11-15T10:20:21.6020477Z
+created: 2022-01-21T04:56:07.5657061Z
 protocol: 1
 tests:
 - id: Jjal96b-fE6EfGApPe1Qng
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-15T08:58:54.0000000
-  modificationDate: 2021-11-15T08:58:54.0000000
+  modificationDate: 2021-12-18T05:57:53.0000000
   settings:
     automationAssistant: false
     appId: veJSmJ2YRk-VtsuAsieEbg
@@ -50,36 +50,11 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: sbF3OM-InUyq4uCVBp9dcg
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
-      source: System
-    parameterMaps:
-    - name: x
-      value: 0
-      direction: Input
-    - name: y
-      value: 96
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
   - id: SuitzFwrI0Wyt86eAmFNFg
     comments: ''
     enabled: true
     invertResult: false
-    order: 3
+    order: 2
     repeat: 1
     type: Addon
     settings:
@@ -151,7 +126,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 4
+    order: 3
     repeat: 1
     type: Addon
     settings:
@@ -231,7 +206,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 5
+    order: 4
     repeat: 1
     type: Addon
     settings:
