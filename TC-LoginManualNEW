@@ -1,7 +1,7 @@
-id: 6q02B9F-30-pHPPkue8xTw
+id: vigt0oC0PUuDqOaL7XtG3Q
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2021-11-17T06:30:38.9024253Z
+created: 2022-01-21T04:56:07.5650487Z
 protocol: 1
 tests:
 - id: VixEpJfWB0iWp3M_jSau_g
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-08-20T02:54:30.0000000
-  modificationDate: 2021-11-17T06:30:39.0000000
+  modificationDate: 2022-01-08T04:10:09.0000000
   settings:
     automationAssistant: true
     appId: nySB3blUd0uLTl9odEXGZQ
@@ -108,7 +108,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: rafiolasaputra02@gmail.com
+      value: '{email}'
       direction: Input
     conditions: []
     validations: []
@@ -151,7 +151,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: Rafiola02
+      value: '{password}'
       direction: Input
     conditions: []
     validations: []
@@ -181,8 +181,32 @@ tests:
     description: Auto generated application URL parameter
     value: https://ibid-frontend-staging.ibid.astra.co.id/
     type: Input
+  - name: email
+    description: ''
+    value: rafiola01@gmail.com
+    type: Input
+  - name: password
+    description: ''
+    value: Rafiola01
+    type: Input
 auxTests: []
 elements:
+- id: wbc7H3QkMU2-HdTPGqMYnQ
+  name: Masuk1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Masuk']
+    priority: 0
+  - name: XPATH
+    value: //nav/div/div//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/header/nav[2]/div/div/div/button
+    priority: 2
 - id: ruSZQACEY0q1PDmp3cOiRw
   name: email1
   type:
@@ -214,22 +238,6 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div[1]/div/div/main/div/div[2]/div[2]/div/div/form/div[2]/input
-    priority: 2
-- id: wbc7H3QkMU2-HdTPGqMYnQ
-  name: Masuk1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Masuk']
-    priority: 0
-  - name: XPATH
-    value: //nav/div/div//button
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div/header/nav[2]/div/div/div/button
     priority: 2
 - id: 6FYVR8vRU068_7x-3DI4rQ
   name: Sign in1
