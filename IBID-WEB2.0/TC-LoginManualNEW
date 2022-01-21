@@ -1,0 +1,259 @@
+id: gwFnbStxYkGIM-kOauVgsg
+projectId: 9BNRUp8wekKI6fKJrZzWDQ
+projectName: IBID WEB 2.0
+created: 2022-01-21T05:02:11.0133236Z
+protocol: 1
+tests:
+- id: VixEpJfWB0iWp3M_jSau_g
+  name: TC-LoginManualNEW
+  description: test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-08-20T02:54:30.0000000
+  modificationDate: 2022-01-21T04:58:56.0000000
+  settings:
+    automationAssistant: true
+    appId: nySB3blUd0uLTl9odEXGZQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: nySB3blUd0uLTl9odEXGZQ
+    name: web 2.0 - staging
+    url: https://ibid-frontend-staging.ibid.astra.co.id/
+    platform: Web
+  steps:
+  - id: yU685Lj2nkizIygDzM-_AQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bT5RMEPySUmn6SEmsz1hdA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: wbc7H3QkMU2-HdTPGqMYnQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jip5DOt9-EmPgAjx66EJ2w
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: ruSZQACEY0q1PDmp3cOiRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VEjyIXec80O66ZW0G7HjvA
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: ruSZQACEY0q1PDmp3cOiRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{email}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: u5IVqEYWB0mKoUaAkaHKgQ
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: jBnHsZt89UO745nU2F94DQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZXeMy10obE2wLbrrN8Wm4g
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: jBnHsZt89UO745nU2F94DQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{password}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Dh7Te_hqEE-g2OkomWillw
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 6FYVR8vRU068_7x-3DI4rQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://ibid-frontend-staging.ibid.astra.co.id/
+    type: Input
+  - name: email
+    description: ''
+    value: rafiola01@gmail.com
+    type: Input
+  - name: password
+    description: ''
+    value: Rafiola01
+    type: Input
+auxTests: []
+elements:
+- id: wbc7H3QkMU2-HdTPGqMYnQ
+  name: Masuk1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Masuk']
+    priority: 0
+  - name: XPATH
+    value: //nav/div/div//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/header/nav[2]/div/div/div/button
+    priority: 2
+- id: ruSZQACEY0q1PDmp3cOiRw
+  name: email1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='email']"
+    priority: 0
+  - name: XPATH
+    value: //div[1]/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/main/div/div[2]/div[2]/div/div/form/div[1]/input
+    priority: 2
+- id: jBnHsZt89UO745nU2F94DQ
+  name: password1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //div[2]/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/main/div/div[2]/div[2]/div/div/form/div[2]/input
+    priority: 2
+- id: 6FYVR8vRU068_7x-3DI4rQ
+  name: Sign in1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Sign in']
+    priority: 0
+  - name: XPATH
+    value: //form/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/main/div/main/div/div[2]/div[2]/div/div/form/button
+    priority: 2
+projectParameters: []
+addons: []
