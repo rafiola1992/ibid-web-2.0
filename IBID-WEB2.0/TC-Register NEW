@@ -1,7 +1,7 @@
-id: W7-ScAhdqUy961_biASP-A
+id: A6IRqvkERk2uGGB-UU_ojQ
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2022-03-29T09:03:12.6201242Z
+created: 2022-03-29T09:11:25.6877756Z
 protocol: 1
 tests:
 - id: SZXA7PqVVUGSyMB2xnQe_Q
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2020-09-23T02:31:04.0000000
-  modificationDate: 2022-03-29T09:02:16.0000000
+  modificationDate: 2022-03-29T09:11:00.0000000
   settings:
     automationAssistant: true
     appId: nySB3blUd0uLTl9odEXGZQ
@@ -235,7 +235,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: '{{RandomName}}~?~RandomNumber{{}}email~?~'
+      value: '{{email}}'
       direction: Input
     conditions: []
     validations: []
@@ -278,7 +278,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: '{{RandomName}}{{RandomNumber}}'
+      value: ''
       direction: Input
     conditions: []
     validations: []
@@ -329,11 +329,11 @@ tests:
   parameters:
   - name: email
     description: ''
-    value: '@gmail.com'
+    value: ''
     type: Input
   - name: password
     description: ''
-    value: Rafiola01
+    value: ''
     type: Input
   - name: RandomName
     description: ''
@@ -344,6 +344,10 @@ tests:
     value: ''
     type: Input
   - name: looping
+    description: ''
+    value: ''
+    type: Input
+  - name: passwordconfirm
     description: ''
     value: ''
     type: Input
