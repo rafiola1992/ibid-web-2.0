@@ -1,7 +1,7 @@
-id: oopILf1ri0Sb4_QO15Bx0A
+id: W7-ScAhdqUy961_biASP-A
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2022-01-21T05:02:11.0130863Z
+created: 2022-03-29T09:03:12.6201242Z
 protocol: 1
 tests:
 - id: SZXA7PqVVUGSyMB2xnQe_Q
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2020-09-23T02:31:04.0000000
-  modificationDate: 2022-01-21T04:58:56.0000000
+  modificationDate: 2022-03-29T09:02:16.0000000
   settings:
     automationAssistant: true
     appId: nySB3blUd0uLTl9odEXGZQ
@@ -44,7 +44,7 @@ tests:
       source: System
     parameterMaps:
     - name: url
-      value: https://ibid-frontend-staging.ibid.astra.co.id/register
+      value: https://www.ibid.astra.co.id/register
       direction: Input
     conditions: []
     validations: []
@@ -447,19 +447,6 @@ elements:
     priority: 2
 projectParameters: []
 addons:
-- id: Xey4bVsJQEODIUN7ssaJMg
-  source: Store
-  version: 1.1.9
-  actions:
-  - id: oss77pMS7U-Bt7cdueaJUw
-    name: Maximize window
-    description: Maximize window
-    className: io.testproject.addons.web.window.MaximizeWindow
-  minSdkLevel: 2
-  minSdkVersion: 0.63.1
-  sdkGeneration: 1
-  language: Java
-  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
 - id: -kT4Fi1xFk6PF8xkHU4vDg
   source: Store
   version: 2.2
@@ -477,6 +464,19 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: B8E84E0F0EE92A1E8BB93EB3C515DB4F0106CAA6087A437A171B1B0191F14F88
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: oss77pMS7U-Bt7cdueaJUw
+    name: Maximize window
+    description: Maximize window
+    className: io.testproject.addons.web.window.MaximizeWindow
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
 - id: D5P7e9ZMO0aPwXNrWJE9iA
   source: Store
   version: 2.10
