@@ -1,0 +1,61 @@
+id: 3_vjZ4UlVEePKzZ2i9UqFw
+projectId: 9BNRUp8wekKI6fKJrZzWDQ
+projectName: IBID WEB 2.0
+created: 2022-05-27T14:16:41.5218137Z
+protocol: 1
+tests:
+- id: 3nDG80Sr00qpJrCuoYFlvg
+  name: DataKaryawan
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-27T14:16:41.0000000
+  modificationDate: 2022-05-27T14:16:41.0000000
+  settings:
+    automationAssistant: true
+    appId: veJSmJ2YRk-VtsuAsieEbg
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: veJSmJ2YRk-VtsuAsieEbg
+    name: TestApiJson
+    url: https://jsonplaceholder.typicode.com/
+    platform: Web
+  steps:
+  - id: pAUyDrdN2kmu4535oi9Liw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://jsonplaceholder.typicode.com/
+    type: Input
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
