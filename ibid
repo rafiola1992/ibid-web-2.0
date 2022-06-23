@@ -1,7 +1,7 @@
-id: XaMhkCVdN0ymCdZoz3r14Q
+id: WqBo-cNt90G6Eugp5gbvfQ
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2022-06-23T01:48:31.7641606Z
+created: 2022-06-23T02:12:46.9667313Z
 protocol: 1
 tests:
 - id: ELUquuRba0ufrtqZ_34h4g
@@ -12,9 +12,10 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-06-23T01:48:31.0000000
-  modificationDate: 2022-06-23T01:48:31.0000000
+  modificationDate: 2022-06-23T02:11:53.0000000
   settings:
     automationAssistant: true
+    deviceId: emulator-5554
     appId: sXZP5MEcVkiGnhRnP_q4Ag
     stepSleepTime: 500
     stepTimeout: 15000
@@ -47,8 +48,225 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: Dv_VrumZk0Soz0QEVjJPcg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 4wTGh6bt7kmx3M1lzwsUhQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PFewWEOh50Ob61RSTkNeig
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: CTD0WcGPKEWcdlSyOB8zzg
+    settings:
+      sleepTime: 5000
+      timeout: -1
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Wcrq_LTOKEeSpiZEBpM0XQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 617
+      direction: Input
+    - name: startY
+      value: 1023
+      direction: Input
+    - name: endX
+      value: 600
+      direction: Input
+    - name: endY
+      value: 499
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gZijQ4xw50eLBRHACYAkHw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 7yAvWwSag0iPfmVvhyfOPQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xZUEUYsrUUmaOHL2sQzPJg
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: U5oPGIhJyEiQXVwgnGDJiQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: oRPgQqeeGUuh7QfUC4ZGYw
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: ST3pius6nUyOMS5-Het6rg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters: []
 auxTests: []
-elements: []
+elements:
+- id: 4wTGh6bt7kmx3M1lzwsUhQ
+  name: Lewati
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: ID
+    value: com.sera.ibid:id/btn_skip_walktrough
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Lewati']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.RelativeLayout[2]/android.widget.TextView
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.TextView[1]
+    priority: 3
+- id: 7yAvWwSag0iPfmVvhyfOPQ
+  name: com.sera.ibid:id/btn_register_google
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: ID
+    value: com.sera.ibid:id/btn_register_google
+    priority: 0
+  - name: XPATH
+    value: //android.widget.ImageView[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[5]/android.widget.LinearLayout[1]/android.widget.ImageView[1]
+    priority: 2
+- id: CTD0WcGPKEWcdlSyOB8zzg
+  name: com.sera.ibid:id/btn_login_walktrough
+  type:
+    id: jUwODgyNjAyNzk2NTk3MzY
+    name: android.widget.RelativeLayout
+    source: System
+  locators:
+  - name: ID
+    value: com.sera.ibid:id/btn_login_walktrough
+    priority: 0
+  - name: XPATH
+    value: //android.widget.RelativeLayout[2]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]
+    priority: 2
+- id: U5oPGIhJyEiQXVwgnGDJiQ
+  name: rafiola saputra
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: ID
+    value: com.google.android.gms:id/account_display_name
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'rafiola saputra']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[1]
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]
+    priority: 3
+- id: ST3pius6nUyOMS5-Het6rg
+  name: ANDROID.WIDGET.IMAGEVIEW
+  type:
+    id: jUwODgyNjAyNzk2NTk3MjI
+    name: android.widget.ImageView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.ImageView
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]
+    priority: 1
 projectParameters: []
 addons: []
