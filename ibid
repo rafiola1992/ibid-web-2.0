@@ -1,0 +1,54 @@
+id: XaMhkCVdN0ymCdZoz3r14Q
+projectId: 9BNRUp8wekKI6fKJrZzWDQ
+projectName: IBID WEB 2.0
+created: 2022-06-23T01:48:31.7641606Z
+protocol: 1
+tests:
+- id: ELUquuRba0ufrtqZ_34h4g
+  name: ibid
+  description: ''
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 0.1
+  creationDate: 2022-06-23T01:48:31.0000000
+  modificationDate: 2022-06-23T01:48:31.0000000
+  settings:
+    automationAssistant: true
+    appId: sXZP5MEcVkiGnhRnP_q4Ag
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: sXZP5MEcVkiGnhRnP_q4Ag
+    name: ibid
+    platform: Android
+    hash: 61394c4127db0521574a4cd4f1226201
+  steps:
+  - id: G9cRlbOUV0a28sjXestR0g
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
