@@ -1,7 +1,7 @@
-id: Fx2v6TaPcUSswKYY9ZHP0A
+id: LBjA2Crwa0O2Nv_4anCV0A
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2022-06-30T13:33:27.9385187Z
+created: 2022-06-30T13:58:57.2111102Z
 protocol: 1
 tests:
 - id: t51Wys4aY0OVLgLc2wzGXg
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-06-30T13:24:06.0000000
-  modificationDate: 2022-06-30T13:33:28.0000000
+  modificationDate: 2022-06-30T13:53:26.0000000
   settings:
     automationAssistant: true
     deviceId: emulator-5554
@@ -48,8 +48,564 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: X1qeMivP1UCsEnNz2Vj3fA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: JMePjMxz9ESbdQAeYskNmA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pfNq25NpI0yu9ovGslYCTw
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: NuybFsJ2k0yDpKWdh8odUg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dSXDHSy8UUS80V3PULYINA
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 6cH2zeBXfUObGEKO3xr0EA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ErJNMqgt70KpyahHZ-xQ_A
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 6cH2zeBXfUObGEKO3xr0EA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: chandra
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fCDbqsq0c0Scsk5Zq_AgbQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: -H98fdaDgEmY3UvRXNL7xQ
+      source: Store
+      addonId: -kT4Fi1xFk6PF8xkHU4vDg
+    parameterMaps:
+    - name: result
+      value: '[[randomname]]'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HELEBaRZ_E-IT1KIdGZwKQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: nHBKyka6qkCOqAudow9lbg
+      source: Store
+      addonId: -kT4Fi1xFk6PF8xkHU4vDg
+    parameterMaps:
+    - name: min
+      value: 0
+      direction: Input
+    - name: max
+      value: 10000
+      direction: Input
+    - name: result
+      value: '[[randomnumber]]'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MZJ6U242DUKS7unKHJ2rZQ
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: mD3fTehrtUqvtBdo7UD5mw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[randomname]][[randomnumber]][[gmail]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GMTSKkkd8EKdACvYWjYlXg
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: mD3fTehrtUqvtBdo7UD5mw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: chandra01@gmail.com
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZxfrkeMOSUC5-aCWLHTPbQ
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: ob-POpT9LESHTcNvBcRCYg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ulXo3v6H6k6mbb5fQDmvRQ
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: ob-POpT9LESHTcNvBcRCYg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Chandra13
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bKQfFO2cGUm1rCAvUYsKMQ
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 1015
+      direction: Input
+    - name: startY
+      value: 1171
+      direction: Input
+    - name: endX
+      value: 1011
+      direction: Input
+    - name: endY
+      value: 733
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: d0SQJqKkVUqPRttYjH91sQ
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: 1221gexdQUS1RNP5ahDRWQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SiuI97U2XUuoRTWDPfBKqw
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: 1221gexdQUS1RNP5ahDRWQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Chandra13
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xO81kr3ZyEeWMsCh2a8Ktg
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 144af44b-2c26-4c8b-b5e6-7c6b7d6cad72
+      source: System
+    parameterMaps:
+    - name: startX
+      value: 963
+      direction: Input
+    - name: startY
+      value: 1161
+      direction: Input
+    - name: endX
+      value: 959
+      direction: Input
+    - name: endY
+      value: 608
+      direction: Input
+    - name: duration
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vQb7_hYB70CysLAXQrSBNA
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: LRG8lYTDfUSMduHpVuHqdw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: m0EjwZ1JG0iYUs42V1nJ2A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: La8FeioycUWiFTccCXgOiQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Kami telah mengirimkan email ke chandra01@gmail.com untuk verifikasi akun Anda
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   parameters: []
 auxTests: []
-elements: []
-projectParameters: []
-addons: []
+elements:
+- id: JMePjMxz9ESbdQAeYskNmA
+  name: Lewati
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: ID
+    value: com.sera.ibid:id/btn_skip_walktrough
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Lewati']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.RelativeLayout[2]/android.widget.TextView
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[2]/android.widget.TextView[1]
+    priority: 3
+- id: NuybFsJ2k0yDpKWdh8odUg
+  name: DAFTAR
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'DAFTAR']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.RelativeLayout[3]/android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[3]/android.widget.TextView[1]
+    priority: 2
+- id: 6cH2zeBXfUObGEKO3xr0EA
+  name: Nama
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: ID
+    value: com.sera.ibid:id/et_register_name
+    priority: 0
+  - name: XPATH
+    value: //android.widget.EditText[@text = 'Nama']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.EditText
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.EditText[1]
+    priority: 3
+- id: mD3fTehrtUqvtBdo7UD5mw
+  name: Email
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: ID
+    value: com.sera.ibid:id/et_register_email
+    priority: 0
+  - name: XPATH
+    value: //android.widget.EditText[@text = 'Email']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.LinearLayout[2]//android.widget.EditText
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout[1]/android.widget.EditText[1]
+    priority: 3
+- id: ob-POpT9LESHTcNvBcRCYg
+  name: Password
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: ID
+    value: com.sera.ibid:id/et_register_password
+    priority: 0
+  - name: XPATH
+    value: //android.widget.EditText[@text = 'Password']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.LinearLayout[3]//android.widget.EditText
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.FrameLayout[1]/android.widget.EditText[1]
+    priority: 3
+- id: 1221gexdQUS1RNP5ahDRWQ
+  name: Ulangi Password
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: ID
+    value: com.sera.ibid:id/et_register_confirm_password
+    priority: 0
+  - name: XPATH
+    value: //android.widget.EditText[@text = 'Ulangi Password']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.LinearLayout[4]//android.widget.EditText
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.FrameLayout[1]/android.widget.EditText[1]
+    priority: 3
+- id: LRG8lYTDfUSMduHpVuHqdw
+  name: com.sera.ibid:id/btn_register_daftar
+  type:
+    id: jUwODgyNjAyNzk2NTk3MzY
+    name: android.widget.RelativeLayout
+    source: System
+  locators:
+  - name: ID
+    value: com.sera.ibid:id/btn_register_daftar
+    priority: 0
+  - name: XPATH
+    value: //android.widget.LinearLayout/android.widget.RelativeLayout[1]
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]
+    priority: 2
+- id: La8FeioycUWiFTccCXgOiQ
+  name: Kami telah mengirimkan email ke chand...
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: ID
+    value: com.sera.ibid:id/text_message
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Kami telah mengirimkan email ke chandra01@gmail.com untuk verifikasi akun Anda']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TextView
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
+    priority: 3
+projectParameters:
+- id: HImBTprAUUy8MqOulmBmwg
+  name: randomname
+  description: ''
+  value: ''
+- id: biVmnOyTPUSBQbzsoeZrrg
+  name: randomnumber
+  description: ''
+  value: ''
+- id: ozdjeUZcJ0qwTlBQ18zB-A
+  name: gmail
+  description: ''
+  value: '@gmail.com'
+addons:
+- id: -kT4Fi1xFk6PF8xkHU4vDg
+  source: Store
+  version: 2.2
+  actions:
+  - id: -H98fdaDgEmY3UvRXNL7xQ
+    name: Random first name
+    description: Generate random first name
+    className: GenerateFirstName
+  - id: nHBKyka6qkCOqAudow9lbg
+    name: Random number in a range
+    description: Generate random number between {{min}} and {{max}}
+    className: GenerateNumberInRange
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: B8E84E0F0EE92A1E8BB93EB3C515DB4F0106CAA6087A437A171B1B0191F14F88
