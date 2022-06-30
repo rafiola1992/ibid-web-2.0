@@ -1,7 +1,7 @@
-id: LBjA2Crwa0O2Nv_4anCV0A
+id: PyeWFn5QNkqQgmotk450xw
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2022-06-30T13:58:57.2111102Z
+created: 2022-06-30T14:03:58.3029106Z
 protocol: 1
 tests:
 - id: t51Wys4aY0OVLgLc2wzGXg
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-06-30T13:24:06.0000000
-  modificationDate: 2022-06-30T13:53:26.0000000
+  modificationDate: 2022-06-30T14:02:31.0000000
   settings:
     automationAssistant: true
     deviceId: emulator-5554
@@ -208,33 +208,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: GMTSKkkd8EKdACvYWjYlXg
-    enabled: true
-    invertResult: false
-    order: 9
-    repeat: 1
-    type: Action
-    elementId: mD3fTehrtUqvtBdo7UD5mw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: chandra01@gmail.com
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
   - id: ZxfrkeMOSUC5-aCWLHTPbQ
     enabled: true
     invertResult: false
-    order: 10
+    order: 9
     repeat: 1
     type: Action
     elementId: ob-POpT9LESHTcNvBcRCYg
@@ -254,7 +231,7 @@ tests:
   - id: ulXo3v6H6k6mbb5fQDmvRQ
     enabled: true
     invertResult: false
-    order: 11
+    order: 10
     repeat: 1
     type: Action
     elementId: ob-POpT9LESHTcNvBcRCYg
@@ -277,7 +254,7 @@ tests:
   - id: bKQfFO2cGUm1rCAvUYsKMQ
     enabled: true
     invertResult: false
-    order: 12
+    order: 11
     repeat: 1
     type: Action
     settings:
@@ -311,7 +288,7 @@ tests:
   - id: d0SQJqKkVUqPRttYjH91sQ
     enabled: true
     invertResult: false
-    order: 13
+    order: 12
     repeat: 1
     type: Action
     elementId: 1221gexdQUS1RNP5ahDRWQ
@@ -331,7 +308,7 @@ tests:
   - id: SiuI97U2XUuoRTWDPfBKqw
     enabled: true
     invertResult: false
-    order: 14
+    order: 13
     repeat: 1
     type: Action
     elementId: 1221gexdQUS1RNP5ahDRWQ
@@ -354,7 +331,7 @@ tests:
   - id: xO81kr3ZyEeWMsCh2a8Ktg
     enabled: true
     invertResult: false
-    order: 15
+    order: 14
     repeat: 1
     type: Action
     settings:
@@ -388,7 +365,7 @@ tests:
   - id: vQb7_hYB70CysLAXQrSBNA
     enabled: true
     invertResult: false
-    order: 16
+    order: 15
     repeat: 1
     type: Action
     elementId: LRG8lYTDfUSMduHpVuHqdw
@@ -409,7 +386,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 17
+    order: 16
     repeat: 1
     type: Action
     elementId: La8FeioycUWiFTccCXgOiQ
