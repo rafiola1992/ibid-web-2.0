@@ -1,7 +1,7 @@
-id: JIpjkBni_EaAU-7eSLcmGA
+id: pxmf8rSJd0eBj2FcSdizUA
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2022-06-30T13:24:06.4967369Z
+created: 2022-06-30T13:31:10.6974367Z
 protocol: 1
 tests:
 - id: t51Wys4aY0OVLgLc2wzGXg
@@ -12,11 +12,12 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-06-30T13:24:06.0000000
-  modificationDate: 2022-06-30T13:24:06.0000000
+  modificationDate: 2022-06-30T13:31:10.0000000
   settings:
     automationAssistant: true
+    deviceId: emulator-5554
     appId: andN8XXpDk6_0qvN3OgREQ
-    stepSleepTime: 500
+    stepSleepTime: 3000
     stepTimeout: 15000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
