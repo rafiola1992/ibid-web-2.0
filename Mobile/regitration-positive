@@ -1,7 +1,7 @@
-id: pxmf8rSJd0eBj2FcSdizUA
+id: Fx2v6TaPcUSswKYY9ZHP0A
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2022-06-30T13:31:10.6974367Z
+created: 2022-06-30T13:33:27.9385187Z
 protocol: 1
 tests:
 - id: t51Wys4aY0OVLgLc2wzGXg
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-06-30T13:24:06.0000000
-  modificationDate: 2022-06-30T13:31:10.0000000
+  modificationDate: 2022-06-30T13:33:28.0000000
   settings:
     automationAssistant: true
     deviceId: emulator-5554
