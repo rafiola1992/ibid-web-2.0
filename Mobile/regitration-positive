@@ -1,7 +1,7 @@
-id: PyeWFn5QNkqQgmotk450xw
+id: MRnj__TdeE6kXuLdy4iYMw
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2022-06-30T14:03:58.3029106Z
+created: 2022-10-02T07:48:57.7044165Z
 protocol: 1
 tests:
 - id: t51Wys4aY0OVLgLc2wzGXg
@@ -12,7 +12,7 @@ tests:
   driverType: Appium_Android
   version: 0.1
   creationDate: 2022-06-30T13:24:06.0000000
-  modificationDate: 2022-06-30T14:02:31.0000000
+  modificationDate: 2022-10-02T07:48:41.0000000
   settings:
     automationAssistant: true
     deviceId: emulator-5554
@@ -406,6 +406,26 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: Ntp3fR_glkuZDXdKt0w1jQ
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: LEaa_kS2CEawLwzJmrZi1Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters: []
 auxTests: []
 elements:
@@ -555,6 +575,22 @@ elements:
   - name: XPATH
     value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
     priority: 3
+- id: LEaa_kS2CEawLwzJmrZi1Q
+  name: com.sera.ibid:id/btn_update
+  type:
+    id: jUwODgyNjAyNzk2NTk3MzY
+    name: android.widget.RelativeLayout
+    source: System
+  locators:
+  - name: ID
+    value: com.sera.ibid:id/btn_update
+    priority: 0
+  - name: XPATH
+    value: //android.widget.RelativeLayout/android.widget.RelativeLayout
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]
+    priority: 2
 projectParameters:
 - id: HImBTprAUUy8MqOulmBmwg
   name: randomname
