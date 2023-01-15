@@ -1,0 +1,61 @@
+id: y1mca3iCtkKNppOsbj_yzA
+projectId: 9BNRUp8wekKI6fKJrZzWDQ
+projectName: IBID WEB 2.0
+created: 2023-01-15T02:14:33.0649339Z
+protocol: 1
+tests:
+- id: dBePlGKQlEeFlxki-PSxgA
+  name: Login TAP
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2023-01-15T02:14:33.0000000
+  modificationDate: 2023-01-15T02:14:33.0000000
+  settings:
+    automationAssistant: true
+    appId: O03dyA4XRkGs6kSI7QWD-A
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: O03dyA4XRkGs6kSI7QWD-A
+    name: Login TAP
+    url: https://eharvesting.tap-agri.com/login
+    platform: Web
+  steps:
+  - id: E3aei9sDGUmAcRAFw_hFPw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://eharvesting.tap-agri.com/login
+    type: Input
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
