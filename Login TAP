@@ -1,7 +1,7 @@
-id: xFaYeXhT7UadySAqXMh41Q
+id: t_a0xhjiuU6Um-3QGoBizQ
 projectId: 9BNRUp8wekKI6fKJrZzWDQ
 projectName: IBID WEB 2.0
-created: 2023-01-15T02:26:18.2232641Z
+created: 2023-01-15T02:35:35.0661898Z
 protocol: 1
 tests:
 - id: dBePlGKQlEeFlxki-PSxgA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2023-01-15T02:14:33.0000000
-  modificationDate: 2023-01-15T02:26:15.0000000
+  modificationDate: 2023-01-15T02:34:46.0000000
   settings:
     automationAssistant: true
     appId: O03dyA4XRkGs6kSI7QWD-A
@@ -199,13 +199,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: QC0Rdqrcy0edZO484hInSQ
+  - id: HzVWLxxs1EGzuDym061VOA
+    comments: ''
     enabled: true
     invertResult: false
     order: 9
     repeat: 1
-    type: Action
-    elementId: GvOQlrg040qbz7Z6lnwIpg
+    type: Addon
     settings:
       sleepTime: -1
       timeout: -1
@@ -213,8 +213,9 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
+      id: pYLjHfk2cEORV8cwEh2Stw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
     parameterMaps: []
     conditions: []
     validations: []
@@ -307,24 +308,18 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div/div/div[1]/button/span
     priority: 2
-- id: GvOQlrg040qbz7Z6lnwIpg
-  name: Log Out
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //a[. = '
-                                       Log Out
-                                  ']
-    priority: 0
-  - name: XPATH
-    value: //nav/div/ul/li[2]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/header/nav/div/ul/li[2]/a
-    priority: 2
 projectParameters: []
-addons: []
+addons:
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: pYLjHfk2cEORV8cwEh2Stw
+    name: Delete all cookies
+    description: Delete all cookies
+    className: io.testproject.addons.web.cookies.DeleteAllCookies
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
